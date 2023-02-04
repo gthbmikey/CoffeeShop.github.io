@@ -18,7 +18,7 @@ a {
   color: white;
 }
 .haha {
-  margin-left: 175px;
+  margin-left: 115px;
 }
 
 nav {
@@ -104,7 +104,7 @@ h2 {
 
 
 .title {
-    margin-top: 100px;
+    margin-top: 250px;
     margin-bottom: 50px;
     font-size: 45px;
     color: white;
@@ -115,5 +115,5 @@ h2 {
     margin-bottom: 400px;
     font-size: medium;
     font-family:cursive;
-    color: rgb(192, 123, 33);
+    color: rgba(129, 53, 22, 0.932);
   }
