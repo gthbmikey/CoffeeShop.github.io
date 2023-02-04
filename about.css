@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.haha {
+  margin-left: 175px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  padding: 10px 90px;
+  box-sizing: border-box;
+  background: rgba(129, 53, 22, 0.932);
+  border-bottom: 7px solid white;
+}
+
+nav .logo {
+  padding: 22px 20px;
+  height: 80px;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+
+}
+
+nav .logo:hover {
+  background-color: transparent;
+  cursor: pointer;
+  transform:scale(1.2);
+  transition: all 1s ease;
+}
+
+span {
+  color: rgb(218, 94, 37);
+}
+
+nav ul{
+  list-style: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li a {
+  
+  line-height: 80px;
+  color: white;
+  padding: 12px 30px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+nav ul li a:hover{
+  background: rgba(41, 39, 39, 0.7);
+  border-radius: 6px;
+  color: rgb(128, 56, 6);
+}
+
+input {
+  color: white;
+  background: transparent;
+  margin-left: 250px;
+}
+input:hover {
+  background: rgba(41, 39, 39, 0.7);
+  border-radius: 6px;
+  color: red;
+}
+
+nav ul li a i {
+  height: 20px;
+}
+
+
+h2 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+.title {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 45px;
+    color: white;
+    letter-spacing: 3px;
+  }
+  
+  .text {
+    margin-bottom: 400px;
+    font-size: medium;
+    font-family:cursive;
+    color: rgb(192, 123, 33);
+  }
